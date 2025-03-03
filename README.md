@@ -47,10 +47,14 @@ meningkatkan hitungan saat diklik.
 
 1. Buat file baru di direktori src dengan nama Greeting.js. 
 2. Tambahkan kode berikut untuk membuat komponen Greeting yang menerima props: 
+![alt text](image-11.png)
 3. Buka file src/App.js dan impor komponen Greeting: 
+![alt text](image-13.png)
 4. Tambahkan komponen Greeting ke dalam komponen App dan kirim props name: 
-5. Simpan file dan lihat perubahan di browser. Anda akan melihat pesan "Halo, John!" yang 
+![alt text](image-12.png)
+5. Simpan file dan lihat perubahan di browser. Anda akan melihat pesan "Halo, Indra!" yang 
 ditampilkan oleh komponen Greeting. 
+![alt text](image-14.png)
 
 ### 5. Menggunakan State untuk Mengelola Data 
 
