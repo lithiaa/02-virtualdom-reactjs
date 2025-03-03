@@ -25,8 +25,10 @@ Aplikasi akan terbuka di browser pada alamat http://localhost:3000.
 
 1. Buka file src/App.js di text editor Anda. 
 2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana:  
+![alt text](image-6.png)
 3. Simpan file dan lihat perubahan di browser. Anda akan melihat tampilan sederhana dengan 
 header, konten utama, dan footer. 
+![alt text](image-5.png)
 
 ### 3. Menggunakan JSX untuk Membuat Komponen Dinamis 
 
