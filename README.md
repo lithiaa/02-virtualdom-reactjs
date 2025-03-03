@@ -34,10 +34,14 @@ header, konten utama, dan footer.
 
 1. Buat file baru di direktori src dengan nama Counter.js. 
 2. Tambahkan kode berikut untuk membuat komponen Counter yang dinamis: 
+![alt text](image-9.png)
 3. Buka file src/App.js dan impor komponen Counter: 
+![alt text](image-8.png)
 4. Tambahkan komponen Counter ke dalam komponen App: 
+![alt text](image-7.png)
 5. Simpan file dan lihat perubahan di browser. Anda akan melihat tombol "Tambah" yang dapat 
 meningkatkan hitungan saat diklik. 
+![alt text](image-10.png)
 
 ### 4. Menggunakan Props untuk Mengirim Data 
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './Counter';
 
 function Header() {
   return (
@@ -31,6 +32,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <Counter />
       <Footer />
     </div>
   );
