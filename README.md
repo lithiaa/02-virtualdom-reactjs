@@ -60,8 +60,11 @@ ditampilkan oleh komponen Greeting.
 
 1. Buka file src/App.js dan tambahkan kode berikut untuk membuat komponen yang mengelola 
 state: 
+![alt text](image-15.png)
 2. Tambahkan komponen Example ke dalam komponen App: 
+![alt text](image-16.png)
 3. Simpan file dan lihat perubahan di browser. Anda akan melihat form input yang dapat mengupdate state dan menampilkan data yang dimasukkan. 
+![alt text](image-17.png)
 
 ### Tugas 
 

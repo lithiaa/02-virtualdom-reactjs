@@ -1,6 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Counter from './Counter';
 import Greeting from './Greeting';
+
+function Example() {
+  const [name, setName] = useState('');
+  const [age, setAge] = useState(0);
+  const [email, setEmail] = useState('');
+
+  const handleNameChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleAgeChange = (e) => {
+    setAge(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  return (
+    <div>
+      <input type="text" value={name} onChange={handleNameChange} placeholder="Nama" />
+      <input type="number" value={age} onChange={handleAgeChange} placeholder="Umur" />
+      <input type="email" value={email} onChange={handleEmailChange} placeholder="Email" />
+      <p>{name} berumur {age} tahun dan emailnya adalah {email}.</p>
+    </div>
+  );
+}
 
 function Header() {
   return (
@@ -35,6 +62,7 @@ function App() {
       <Main />
       <Greeting name="Indra" />
       <Counter />
+      <Example />
       <Footer />
     </div>
   );
